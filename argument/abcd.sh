@@ -1,7 +1,4 @@
-echo "hello shafi"
-echo "second commit"
-echo "new project add"
-echo "the experience"
+echo "hello sha"
 echo "the primage"
 echo "the enter prime"
 echo "the average"
