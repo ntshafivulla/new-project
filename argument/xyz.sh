@@ -1,3 +1,6 @@
 echo "hello shafi"
-
 echo "second commit"
+echo "32 commonds"
+echo "free command"
+echo "new addhar"
+echo "new present"
