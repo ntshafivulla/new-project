@@ -1,14 +1,14 @@
 <project name="new-project" default="jar" basedir=".">
 <target name="init">
-<mkdir dir="web"/>
+<mkdir dir="webinf"/>
 </target>
 <target name="compile" depends="init">
-<javac srcdir="src" destdir="web"/>
+<javac srcdir="scr" destdir="webinf"/>
 </target>
 <target name="lib" depends="compile">
-<mkdir dir="web/lib"/>
+<mkdir dir="webinf/lib"/>
 </target>
 <target name="jar" depends="lib">
-<jar basedir="src" destfile="web/lib/new-project.jar"/>
+<jar basedir="scr" destfile="webinf/lib/new-project.jar"/>
 </target>
 </project>
